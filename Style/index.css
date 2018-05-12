@@ -1,0 +1,22 @@
+
+.navigationTable{
+	background-color:#303030;
+	width: 100%;
+	color: #7FDBFF;
+	text-align: center;
+}
+
+.styleFont{
+	font-family: 'PT Sans', 'sans-serif';
+	font-size: 30px;
+}
+
+.styleWidth{
+	width: 45%;
+}
+
+.baseFont{
+	font-family: 'Raleway', 'sans-serif';
+	font-size: 15px;
+	font-weight: 200px;
+}
