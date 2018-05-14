@@ -2,13 +2,134 @@
 	
 	<head>
 
+		<title> Clark's Relaxtion - Explore </title>
 
+		<link rel="stylesheet" type ="text/css" href="Style/explore.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Lato|Lustria" rel="stylesheet">
+
+    <script type="text/javascript" src="Script/explore.js"></script>
 
 	</head>
 	
 	<body>
 
+<!-- Navigation Bar -->
+	   <div class="navigationBar">
 
+			<table class="navigationTable" cellpadding="30">
+
+				<tr>
+
+					<td class="baseFont"> Explore </td>
+
+					<td class="baseFont"> Book </td>
+
+					<td class="styleFont styleWidth"> Clark's Relaxation </td>
+
+					<td class="baseFont"> Experiences </td>
+
+					<td class="baseFont"> Cities </td>
+
+				</tr>	
+
+			</table>	
+
+		</div>
+
+    <br/>
+    <br/>
+
+<!-- Slideshow -->		
+    <div class="container">
+
+      <div class="mySlides">
+
+        <div class="numbertext"> 1 / 6 </div>
+
+        <img src="Images/pouringWater.jpg" style="width:100%">
+
+      </div>
+
+      <div class="mySlides">
+        
+        <div class="numbertext"> 2 / 6</div>
+        
+        <img src="Images/Salt.jpeg" style="width:100%">
+
+      </div>
+
+      <div class="mySlides">
+    
+        <div class="numbertext">3 / 6</div>
+      
+        <img src="Images/espaProduct.jpg" style="width:100%">
+  
+      </div>
+
+      <div class="mySlides">
+    
+        <div class="numbertext">4 / 6</div>
+      
+        <img src="Images/womanSpa.jpg" style="width:100%">
+  
+      </div>
+
+      <div class="mySlides">
+    
+        <div class="numbertext">5 / 6</div>
+      
+        <img src="Images/manSpa.jpg" style="width:100%">
+  
+      </div>
+
+      <div class="mySlides">
+    
+        <div class="numbertext">6 / 6</div>
+      
+        <img src="Images/mainSpa.jpg" style="width:100%">
+      
+      </div>
+
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="caption-container">
+    
+        <p id="caption"></p>
+  
+      </div>
+
+    <div class="row">
+
+      <div class="column">
+        <img class="demo cursor" src="Images/pouringWater.jpg" height="200px" width="100%" onclick="currentSlide(1)" alt="Holistic Ritual">
+      </div>
+    
+      <div class="column"> 
+        <img class="demo cursor" src="Images/Salt.jpeg" height="200px" width="100%" onclick="currentSlide(2)" alt="Himalayan Salt">
+      </div>
+    
+      <div class="column">
+        <img class="demo cursor" src="Images/espaProduct.jpg" height="200px" width="100%" onclick="currentSlide(3)" alt="Sponsored by Espa Products">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="Images/womanSpa.jpg" height="200px" width="100%" onclick="currentSlide(4)" alt="Women's Spa">
+      </div>
+    
+      <div class="column">
+        <img class="demo cursor" src="Images/manSpa.jpg" height="200px" width="100%" onclick="currentSlide(5)" alt="Men's Spa">
+      </div>
+
+      <div class="column">
+        <img class="demo cursor" src="Images/mainSpa.jpg" height="200px" width="100%" onclick="currentSlide(6)" alt="Spa Lobby">
+      </div>
+
+    </div>
+
+    </div>
 
 	</body>	
 
